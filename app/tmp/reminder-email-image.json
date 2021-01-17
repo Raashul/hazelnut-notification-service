@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "ReminderEmailImageTemplate",
+    "SubjectPart": "Your weekly reminder from Hazelnut, {{first_name}}!",
+    "HtmlPart": "<html>\r\n<head> \r\n  <style> \r\n  </style>\r\n\r\n  <body>\r\n    <p>Hi {{first_name}}, </p>\r\n    <p> Thank you for using Hazelnut. This is your weekly reminder from <u> {{bucket_name}}</u>  bucket</p>\r\n    <p>This week, we picked a post with an image. The image is posted below: </p>\r\n    <p>Caption: This is the caption for the image. </p>\r\n\r\n    <br />\r\n    <img \r\n    src = `{{image_src}}`\r\n    style = 'height: 400px; width: 550px' />\r\n    <br />\r\n    <p>We will send you a different post next week, same time from the same bucket. Stay tuned!</p>\r\n    <p>Thanks you,</p>\r\n    <p> The Hazelnut Team </p>\r\n  </body>\r\n</head>\r\n\r\n</html>\r\n\r\n",
+    "TextPart": ""
+  }
+}

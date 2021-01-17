@@ -1,0 +1,28 @@
+<!-- Send this by escaping json -->
+<html>
+  <head>
+    <style></style>
+
+    <body>
+      <p>Hi {{ first_name }},</p>
+      <p>
+        Thank you for using Hazelnut. This is your weekly reminder from
+        <u> {{ bucket_name }}</u> bucket
+      </p>
+      <p>
+        This week, we picked a post with an image. The image is posted below:
+      </p>
+      <p>Caption: This is the caption for the image.</p>
+
+      <br />
+      <img src="`{{ image_src }}`" style="height: 400px; width: 550px" />
+      <br />
+      <p>
+        We will send you a different post next week, same time from the same
+        bucket. Stay tuned!
+      </p>
+      <p>Thanks you,</p>
+      <p>The Hazelnut Team</p>
+    </body>
+  </head>
+</html>

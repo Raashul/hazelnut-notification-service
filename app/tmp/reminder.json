@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "MyTemplate",
+    "SubjectPart": "Greetings, {{first_name}}!",
+    "HtmlPart": "<html>\r\n<head> \r\n  <style> \r\n\r\n  <\/style>\r\n  <body>\r\n    <h3>Name of user {{first_name}}<\/h3>\r\n    <h3>This is a reminder from bucket: {{bucket_name}} <\/h3>\r\n    <h3>Post<\/h3>\r\n    <p>{{content}}<\/p>\r\n  <\/body>\r\n<\/head>\r\n\r\n<\/html>\r\n\r\n\r\n",
+    "TextPart": ""
+  }
+}
